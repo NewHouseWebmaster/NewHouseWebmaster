@@ -5,7 +5,7 @@
   "main": "server/server.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages master -d build",
     "hotloader": "webpack-dev-server --config ./webpack.config.js --mode development --port 5000",
     "start": "react-scripts start",
     "build": "react-scripts build",
