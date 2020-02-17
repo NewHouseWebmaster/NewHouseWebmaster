@@ -1,0 +1,10 @@
+.App-container {
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    background-image: url('./data/minimalist-snow.jpg');
+    overflow: hidden;
+    background-color: rgba(238, 238, 238, 0.90) !important;
+    background-size: fill;
+    background-blend-mode: color;
+}

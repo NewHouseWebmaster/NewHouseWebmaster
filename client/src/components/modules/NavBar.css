@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css?family=Croissant+One|Open+Sans|Open+Sans+Condensed:300|Chivo|Quicksand&display=swap');
+.NavBar-container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.NavBar-sidebar {
+  display: flex;
+  padding: 10px 0 20px 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: auto;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  justify-content: space-evenly;
+  justify-items: center;
+  flex-direction: row;
+}
+
+.NavBar-title-container {
+  /* color: rgb(73, 73, 73); */
+  width: 225px;
+  height: auto;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  /* border-color: black; */
+  z-index: 1;
+}
+.NavBar-title {
+  /* color: rgb(73, 73, 73); */
+  color: black;
+  font-size: 30px;
+  /* margin-top: 5px; */
+  padding: 8px;
+  font-family: 'Chivo', bold;
+}
+
+.NavBar-title .title-link {
+  color: black;
+  text-shadow: 3px 3px white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Quicksand', bold;
+}
+
+
+.logout-button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+  
+.menu-item {
+  padding: 8px;
+  margin-top:15px;
+}
+
+.menu-item-current {
+  padding: 10px;
+}
+
+.menu-item-current ::before {
+  content: "⬤";
+}
+
+/* .menu-item ::before {
+  content: "🐠";
+  } */
+
+
+.NavBar-link,
+.NavBar-link:visited {
+  /* color: rgb(77, 77, 77); */
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
+.NavBar-link:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+/* .NavBar-link:active {
+  color:blue;
+} */
+
+.NavBar-link.NavBar-login {
+  opacity: 1;
+}
+
+.NavBar-link + .NavBar-link {
+  margin-left: var(--m);
+}
