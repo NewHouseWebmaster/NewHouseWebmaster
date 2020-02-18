@@ -3,7 +3,7 @@
 
 .facilities-container {
     padding-top: 150px;
-    width: 70vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,17 +11,15 @@
 
 .f-item {
     margin-top: 50px;
-    margin-left: 20vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: 'Quicksand';
     align-items: center;
-    text-align: center;
 }
 
 .f-item img {
-    width: 500px;
+    max-width: 30vw;
     border-radius: 20px;
     border-style: solid;
     border-width: 5px;
@@ -30,11 +28,12 @@
 }
 
 .f-item p {
-    margin-left: 30px;
+    max-width: 30vw;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .f-extra {
-    margin-left: 30vw;
     margin-top: 50px;
     display: flex;
     flex-direction: row;

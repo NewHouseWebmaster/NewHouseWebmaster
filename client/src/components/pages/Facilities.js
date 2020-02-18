@@ -16,10 +16,13 @@ class Facilities extends Component {
 
   render() {
     return (
+      <>
+      
       <div className='facilities-container'>
-        <div className='about-title'>
+      <div className='about-title'>
           Facilities
         </div>
+        
         <div className='f-item'>
           <img src={laundry}></img>
           <p><b>Laundry Room</b><br></br>
@@ -104,6 +107,7 @@ New House's laundry room is equipped with 10 washers and 10 dryers. Each washer 
 
 
       </div>
+      </>
     );
   }
 }
